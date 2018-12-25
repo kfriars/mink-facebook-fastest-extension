@@ -1,0 +1,56 @@
+{
+    "name": "smart-gamma/mink-facebook-fastest-extension",
+    "description": "Mink extension for facebook's webdriver with fastest multi-threading support",
+    "keywords": [
+        "webdriver",
+        "javascript",
+        "ajax",
+        "testing",
+        "browser",
+        "behat",
+        "facebook",
+        "fastest"
+    ],
+    "homepage": "http://mink.behat.org/",
+    "type": "mink-driver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Otaqui",
+            "email": "pete@otaqui.com",
+            "homepage": "https://github.com/pete-otaqui"
+        },
+        {
+            "name": "Konstantin Kudryashov",
+            "email": "ever.zet@gmail.com",
+            "homepage": "http://everzet.com"
+        },
+        {
+            "name": "Damian Mooyman",
+            "email": "damian@silverstripe.com"
+        },
+        {
+            "name": "Eugen Kuzmin",
+            "email": "evgeniy.k@smart-gamma.com"
+        }
+    ],
+    "require": {
+        "php": "^7",
+        "behat/mink": "~1.7@dev",
+        "facebook/webdriver": "^1.4",
+        "silverstripe/mink-facebook-web-driver": "@stable"
+    },
+    "require-dev": {
+        "mink/driver-testsuite": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmartGamma\\MinkFacebookFastestExtension\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
