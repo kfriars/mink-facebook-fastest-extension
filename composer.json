@@ -41,7 +41,8 @@
         "silverstripe/mink-facebook-web-driver": "@stable"
     },
     "require-dev": {
-        "mink/driver-testsuite": "dev-master"
+        "mink/driver-testsuite": "dev-master",
+        "phpspec/phpspec": "^5.1"
     },
     "autoload": {
         "psr-4": {
