@@ -34,11 +34,17 @@
             "email": "evgeniy.k@smart-gamma.com"
         }
     ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/silverstripe/MinkFacebookWebDriver.git"
+        }
+    ],
     "require": {
         "php": "^7",
         "behat/mink": "~1.7@dev",
-        "facebook/webdriver": "^1.4",
-        "silverstripe/mink-facebook-web-driver": "^1.0",
+        "php-webdriver/php-webdriver": "^1.4",
+        "silverstripe/mink-facebook-web-driver": "dev-master",
         "behat/mink-extension": "^2.3"
     },
     "require-dev": {
