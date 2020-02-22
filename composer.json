@@ -43,7 +43,7 @@
     "require": {
         "php": "^7",
         "behat/mink": "~1.7@dev",
-        "php-webdriver/php-webdriver": "^1.4",
+        "php-webdriver/webdriver": "^1.8",
         "silverstripe/mink-facebook-web-driver": "dev-master",
         "behat/mink-extension": "^2.3"
     },
@@ -54,11 +54,6 @@
     "autoload": {
         "psr-4": {
             "SmartGamma\\MinkFacebookFastestExtension\\": "src/SmartGamma/MinkFacebookFastestExtension"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
