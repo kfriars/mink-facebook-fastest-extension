@@ -36,8 +36,8 @@
     ],
     "repositories": [
         {
-          "type": "vcs",
-          "url": "https://github.com/silverstripe/MinkFacebookWebDriver.git"
+            "type": "vcs",
+            "url": "https://github.com/kfriars/MinkFacebookWebDriver.git"
         }
     ],
     "require": {
